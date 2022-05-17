@@ -1,5 +1,5 @@
 
-
+//El código de búsqueda está incorrecto, la forma correcta es con delegados.
 Laboratorio:
 Requerimientos funcionales
 Los requerimientos funcionales son los siguientes:
