@@ -1,5 +1,6 @@
 
 //El código de búsqueda está incorrecto, la forma correcta es con delegados.
+
 Laboratorio:
 Requerimientos funcionales
 Los requerimientos funcionales son los siguientes:
@@ -42,12 +43,14 @@ determinada posición)
 un equipo)
 
 - Eliminación de equipo
-- 
+
 o Seleccionar un equipo y eliminarlo junto con todos sus
 jugadores.
 
 - Edición de equipo
-- 
+
+
+
 o A cada jugador se le puede editar el coach y la liga a la que
 pertenece.
 
