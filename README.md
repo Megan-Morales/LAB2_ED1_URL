@@ -1,19 +1,62 @@
 
- ____                     ___                    ____                          ___    ___                                        _     _  ______     __     ____     ___       __            
-/\  _`\               __ /\_ \    __            /\  _`\                    __ /\_ \  /\_ \                                     /' \  /' \/\  ___\  /'__`\  /'___\  /'___`\   /'__`\          
-\ \ \L\_\    ___ ___ /\_\\//\ \  /\_\    ___    \ \ \L\ \     __     _ __ /\_\\//\ \ \//\ \      __      ____                 /\_, \/\_, \ \ \__/ /\ \/\ \/\ \__/ /\_\ /\ \ /\ \/\ \         
- \ \  _\L  /' __` __`\/\ \ \ \ \ \/\ \  / __`\   \ \  _ <'  /'__`\  /\`'__\/\ \ \ \ \  \ \ \   /'__`\   /',__\      _______   \/_/\ \/_/\ \ \___``\ \ \ \ \ \  _``\/_/// /__\ \ \ \ \        
-  \ \ \L\ \/\ \/\ \/\ \ \ \ \_\ \_\ \ \/\ \L\ \   \ \ \L\ \/\ \L\.\_\ \ \/ \ \ \ \_\ \_ \_\ \_/\ \L\.\_/\__, `\    /\______\     \ \ \ \ \ \/\ \L\ \ \ \_\ \ \ \L\ \ // /_\ \\ \ \_\ \       
-   \ \____/\ \_\ \_\ \_\ \_\/\____\\ \_\ \____/    \ \____/\ \__/.\_\\ \_\  \ \_\/\____\/\____\ \__/.\_\/\____/    \/______/      \ \_\ \ \_\ \____/\ \____/\ \____//\______/ \ \____/       
-    \/___/  \/_/\/_/\/_/\/_/\/____/ \/_/\/___/      \/___/  \/__/\/_/ \/_/   \/_/\/____/\/____/\/__/\/_/\/___/                     \/_/  \/_/\/___/  \/___/  \/___/ \/_____/   \/___/        
-                                                                                                                                                                                             
-                                                                                                                                                                                             
-                                                                             ___                                      _      ___       ___       _     _      ___       __                   
- /'\_/`\                                      /'\_/`\                       /\_ \                                   /' \   /'___`\   /'___`\   /' \  /' \   /'___`\   /'__`\                 
-/\      \     __     __      __      ___     /\      \    ___   _ __    __  \//\ \      __    ____                 /\_, \ /\_\ /\ \ /\_\ /\ \ /\_, \/\_, \ /\_\ /\ \ /\ \/\ \                
-\ \ \__\ \  /'__`\ /'_ `\  /'__`\  /' _ `\   \ \ \__\ \  / __`\/\`'__\/'__`\  \ \ \   /'__`\ /',__\      _______   \/_/\ \\/_/// /__\/_/// /__\/_/\ \/_/\ \\/_/// /__\ \ \ \ \               
- \ \ \_/\ \/\  __//\ \L\ \/\ \L\.\_/\ \/\ \   \ \ \_/\ \/\ \L\ \ \ \//\ \L\.\_ \_\ \_/\  __//\__, `\    /\______\     \ \ \  // /_\ \  // /_\ \  \ \ \ \ \ \  // /_\ \\ \ \_\ \              
-  \ \_\\ \_\ \____\ \____ \ \__/.\_\ \_\ \_\   \ \_\\ \_\ \____/\ \_\\ \__/.\_\/\____\ \____\/\____/    \/______/      \ \_\/\______/ /\______/   \ \_\ \ \_\/\______/ \ \____/              
-   \/_/ \/_/\/____/\/___L\ \/__/\/_/\/_/\/_/    \/_/ \/_/\/___/  \/_/ \/__/\/_/\/____/\/____/\/___/                     \/_/\/_____/  \/_____/     \/_/  \/_/\/_____/   \/___/               
-                     /\____/                                                                                                                                                                 
-                     \_/__/                                                                                                                                                                  
+
+Laboratorio:
+Requerimientos funcionales
+Los requerimientos funcionales son los siguientes:
+- Carga de datos de equipos y jugadores:
+o Carga manual, registro por registro.
+o Carga por archivo, permite seleccionar un archivo CSV y
+cargar los datos a la aplicación.
+o Los campos de equipos y jugadores se especifican en el
+siguiente requerimiento.
+- Búsqueda
+o Debe permitir la búsqueda de equipos por los siguientes filtros:
+
+▪ Nombre de equipo
+
+▪ Coach
+
+▪ Liga
+
+▪ Fecha de creación
+
+o Debe permitir la búsqueda de jugadores por los siguientes
+filtros:
+
+▪ Nombre, Apellido (Para simplificar deben ser exactos).
+
+▪ Rol (Listar a todos los jugadores que tengan una
+determinada posición)
+
+▪ KDA (Kills, Deaths y Assists) es un número decimal.
+
+▪ Creep Score (Número entero)
+
+▪ Equipo (Listar a todos los jugadores que pertenezcan a
+un equipo)
+
+- Eliminación de equipo
+- 
+o Seleccionar un equipo y eliminarlo junto con todos sus
+jugadores.
+
+- Edición de equipo
+- 
+o A cada jugador se le puede editar el coach y la liga a la que
+pertenece.
+
+- Eliminación de jugador
+- 
+o Seleccionar un jugador y eliminarlo.
+
+- Edición de jugador
+- 
+o A cada jugador se le puede editar el rol, y el equipo para el
+cual juega.
+
+- Medición de tiempos
+- 
+o Al finalizar cada operación el sistema mostrará el tiempo que
+se tardó para efectuar dichas operaciones, al finalizar la
+aplicación mostrará un “log” (Archivo de texto) con el
+resumen de todas las operaciones y los tiempos que tardó.                  
