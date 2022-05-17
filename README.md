@@ -3,13 +3,19 @@
 Laboratorio:
 Requerimientos funcionales
 Los requerimientos funcionales son los siguientes:
+
 - Carga de datos de equipos y jugadores:
+
 o Carga manual, registro por registro.
+
 o Carga por archivo, permite seleccionar un archivo CSV y
 cargar los datos a la aplicación.
+
 o Los campos de equipos y jugadores se especifican en el
 siguiente requerimiento.
+
 - Búsqueda
+
 o Debe permitir la búsqueda de equipos por los siguientes filtros:
 
 ▪ Nombre de equipo
